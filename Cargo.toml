@@ -1,7 +1,16 @@
 [package]
-name = "goatFoam"
+name = "LiqVid"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+axum = "0.8.9"
+base64 = "0.22.1"
+futures = "0.3.32"
 nalgebra = "0.32"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.150"
+stl_io = "0.11.0"
+tokio = { version = "1.52.3", features = ["full"] }
+tokio-stream = "0.1.18"
+tower-http = { version = "0.7.0", features = ["cors"] }

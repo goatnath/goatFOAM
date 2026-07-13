@@ -1,6 +1,6 @@
-# GoatFoam 🐐🌊
+# LiqVid
 
-GoatFoam is a 3D Computational Fluid Dynamics (CFD) engine written entirely from scratch in Rust. It is heavily inspired by the architecture of [OpenFOAM](https://www.openfoam.com/), specifically the `icoFoam` solver and the PISO (Pressure Implicit with Splitting of Operator) algorithm. 
+LiqVid is a 3D Computational Fluid Dynamics (CFD) engine written entirely from scratch in Rust. It is heavily inspired by the architecture of [OpenFOAM](https://www.openfoam.com/), specifically the `icoFoam` solver and the PISO (Pressure Implicit with Splitting of Operator) algorithm. 
 
 ## Features (v0.1.0)
 - **3D Structured Mesh Generation**: A custom grid system that maps 3D physical space into flat 1D arrays for high-performance memory access.
@@ -16,8 +16,8 @@ Make sure you have [Rust and Cargo](https://rustup.rs/) installed.
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/goatFoam.git
-cd goatFoam
+git clone https://github.com/goatnath/goatFOAM.git
+cd goatFOAM
 
 # Run the simulation
 cargo run
